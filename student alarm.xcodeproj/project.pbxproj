@@ -12,6 +12,8 @@
 		045B403C24B494B300627930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B403A24B494B300627930 /* Main.storyboard */; };
 		045B403E24B494B500627930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045B403D24B494B500627930 /* Assets.xcassets */; };
 		045B404124B494B500627930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B403F24B494B500627930 /* LaunchScreen.storyboard */; };
+		047F899F24BB09F800734256 /* GenJyuuGothicL-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047F899E24BB09F800734256 /* GenJyuuGothicL-Bold.ttf */; };
+		047F89A124BB0ACE00734256 /* GenJyuuGothicL-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047F89A024BB0ACE00734256 /* GenJyuuGothicL-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		045B403D24B494B500627930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045B404024B494B500627930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045B404224B494B500627930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047F899E24BB09F800734256 /* GenJyuuGothicL-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GenJyuuGothicL-Bold.ttf"; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/font/GenJyuuGothicL-Bold.ttf"; sourceTree = "<group>"; };
+		047F89A024BB0ACE00734256 /* GenJyuuGothicL-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenJyuuGothicL-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			children = (
 				045B403524B494B300627930 /* student alarm */,
 				045B403424B494B300627930 /* Products */,
+				045B403F24B494B500627930 /* LaunchScreen.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +59,12 @@
 		045B403524B494B300627930 /* student alarm */ = {
 			isa = PBXGroup;
 			children = (
+				047F899E24BB09F800734256 /* GenJyuuGothicL-Bold.ttf */,
+				047F89A024BB0ACE00734256 /* GenJyuuGothicL-Bold.ttf */,
 				045B403624B494B300627930 /* AppDelegate.swift */,
 				045B403824B494B300627930 /* ViewController.swift */,
 				045B403A24B494B300627930 /* Main.storyboard */,
 				045B403D24B494B500627930 /* Assets.xcassets */,
-				045B403F24B494B500627930 /* LaunchScreen.storyboard */,
 				045B404224B494B500627930 /* Info.plist */,
 			);
 			path = "student alarm";
@@ -123,7 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				045B404124B494B500627930 /* LaunchScreen.storyboard in Resources */,
+				047F89A124BB0ACE00734256 /* GenJyuuGothicL-Bold.ttf in Resources */,
 				045B403E24B494B500627930 /* Assets.xcassets in Resources */,
+				047F899F24BB09F800734256 /* GenJyuuGothicL-Bold.ttf in Resources */,
 				045B403C24B494B300627930 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
